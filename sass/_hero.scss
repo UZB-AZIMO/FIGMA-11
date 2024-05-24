@@ -1,0 +1,102 @@
+.hero{
+    margin-top: 40px;
+   background: url("/assets/img1.png") no-repeat center/cover;
+    border-radius: 10px;
+    padding: 60px;
+    height: 550px;
+    width: 100%;
+    color: white;
+    &__title{
+        font-size: 72px;
+        width: 500px;
+    }
+    &__text{
+        margin: 40px 0;
+        font-size: 20px;
+        width: 640px;
+        color:  #FEFCF7;
+    }
+    &__btn{
+        background-color: #66D2CF;
+        color: white;
+        height: 60px;
+        width: 220px;
+        border: none;
+        font-size: 20px;
+        font-weight: bolder;
+        border-radius: 10px;
+        padding: 10px 20px;
+        transition: .8s;
+
+        &:hover{
+            background-color: black;
+            color: gold;
+            border-radius: 20px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (
+    max-width:690px)
+  {   .hero{
+        margin-top: 40px;
+        background: url("/assets/img1.png") no-repeat center/cover;
+         border-radius: 10px;
+         padding: 60px;
+         width: 689px;
+         height: 500px;
+         &__title{
+            font-size: 48px;
+            width: 400px;
+         }
+
+         &__text{
+            font-size: 15px;
+            width: 450px;
+            margin: 24px 0;
+         }
+
+        }
+    }
+
+
+    
+@media (
+    max-width:340px)
+  {   .hero{
+        margin-top: 40px;
+        background: url("/assets/img1.png") no-repeat center/cover;
+         border-radius: 10px;
+         padding: 20px;
+         width: 330px;
+         height: 450px;
+         text-align: center;
+         &__title{
+            font-size: 40px;
+            width: 300px;
+         }
+
+         &__text{
+            font-size: 15px;
+            width: 320px;
+            color:  #dddddd;
+            margin: 15px 0;
+         }
+
+        }
+    }
+
