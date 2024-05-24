@@ -1,0 +1,107 @@
+.shop{
+    background: url("/assets/Group\ 13.png")
+    no-repeat center/cover;
+    height: 200px;
+margin-bottom: 50px;
+    &__wrapper{
+        padding-top: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        text-align: center;
+        
+        .card{
+            &__title{
+                margin: 30px 0 20px 0;
+            font-size: 25px;
+            text-align: center;
+            }
+            &__text{
+               
+    color: #333D4B;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+            }
+        }
+    }
+   
+}
+
+
+
+
+
+@media (
+    max-width:690px)
+  {   .shop{
+    background: url("/assets/Group\ 13.png")
+    no-repeat center/cover;
+    width: 675px;
+    height: 200px;
+
+    &__wrapper{
+        padding-top: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        text-align: center;
+        
+        .card{
+            text-align: center;
+            &__title{
+                margin: 30px 0 20px 0;
+            font-size: 25px;
+            
+            }
+            &__text{
+               
+    color: #333D4B;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+            }
+        }
+    }
+   
+
+        }
+    }
+
+
+
+    
+@media (
+    max-width:325px)
+  {   .shop{
+    background: none;
+    width: 318px;
+    height: 200px;
+    flex-direction: column;
+    &__wrapper{
+        padding-top: 125px;
+        
+        gap: 40px;
+        text-align: center;
+        
+        .card{
+            text-align: center;
+            &__title{
+                margin: 30px 0 20px 0;
+            font-size: 25px;
+            
+            }
+            &__text{
+               
+    color: #333D4B;
+    font-size: 15px;
+    line-height: 20px;
+    width: 280px;
+            }
+        }
+    }
+        }
+    }
+
+
+
