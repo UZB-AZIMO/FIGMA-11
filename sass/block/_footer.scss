@@ -26,6 +26,47 @@
    .fa-brands{
     font-size: 25px;
     margin: 0 10px;
+    &:hover{
+        color: blue;
+        cursor: pointer;
+    }
    }
 }
 
+
+
+
+
+
+
+
+@media (
+    max-width:691px)
+{.footer{
+    height: auto;
+    &__logo{
+        height: 40px;
+    }
+  
+  
+flex-direction: column;
+gap: 10px;
+background-color: #36404b;
+}
+}
+
+
+@media (
+    max-width:330px)
+{.footer{
+    height: auto;
+    &__logo{
+        height: 40px;
+    }
+  
+  
+flex-direction: column;
+gap: 10px;
+background-color: #1c2126;
+}
+}

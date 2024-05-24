@@ -1,10 +1,11 @@
 .work{
+    
     margin-top: 200px;
     &__wrapper{
         margin: 50px 0;
         display: flex;
         gap: 40px;
-        justify-content: center;
+       
         .card{
             &__bigtitle{
                 font-size: 48px;
@@ -157,19 +158,17 @@ margin-bottom: 30px;
 }
 
 
-
-
-
    
 @media (
     max-width:325px)
   {.work{
+    
     padding: 20px;
     margin-top: 500px;
     justify-content: center;
     &__title{
         font-size: 30px;
-        margin:60px 0 30px 0;
+        margin:60px 0 30px ;
     }
    
     &__wrapper{
@@ -196,6 +195,7 @@ margin-bottom: 30px;
 
     }
     &__btn{
+        margin: auto;
         margin-top: 40px;
     }
     }
